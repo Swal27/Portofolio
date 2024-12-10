@@ -1,9 +1,14 @@
-
+import { Sidebar } from "../../sidebar";
 
 export function LandingPages(){
     return(
-        <div>
-            <h1>Hello world</h1>
+        <div className="flex justify-center mt-10">
+            <aside>
+                <Sidebar />
+            </aside>
+            <main>
+                
+            </main>
         </div>  
     );
 }
